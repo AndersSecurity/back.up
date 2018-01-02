@@ -5,6 +5,20 @@ body {
   background-color: #ccc;
   margin: 0;
   padding: 0;
+  margin-bottom: 80px;
+
+}
+h1 {
+  margin-top: 2%;
+  padding-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 15%;
+  color: #fdf6c5;
+
+}
+p {
+  color: #fdf6c5;
 }
 header {
   font-family: "American Typewriter", Serif;
@@ -15,6 +29,7 @@ header {
   padding-top: 3%;
 }
 header p{
+  color: white;
 
   margin: 0;
 }
@@ -46,13 +61,9 @@ footer p {
      position: absolute;
      vertical-align: bottom;
      width:100%;
-  /* display: inline;
-  padding-left: 27.5%;
-  width: 100%; */
+
 }
-#mail {
-  text-align: center;
-}
+
 footer img {
 width: 50px;
 float: right;
@@ -65,6 +76,26 @@ float: right;
   padding: 2%;
   border-radius: 20px;
   margin: 5% 0;
+}
+.profile{
+  width: 30%;
+  clear: left;
+  float: left;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  border-radius: 25px;
+  margin-bottom: 3%;
+
+
+}
+.tekst{
+  font-size: 1em;
+  margin-right: 1.5em;
+  margin-left: 36%;
+    margin-bottom: 10%;
+}
+.omos {
+  float: left;
 }
 
 #instagram{
@@ -79,13 +110,30 @@ float: right;
 #logo {
   margin-left: 45%;
 }
+#mail {
+  text-align: center;
+}
 /*Danny's menu boks*/
 #menutoggle, #fakecheckbox, #menu {
   display: none;
 }
-
+#bottompage {
+  padding-bottom: 5%;
+}
 
 @media screen and (max-width: 790px){
+  h1 {
+    display: inline-block;
+    border: 2px solid #838383;
+    background-color: #838383;
+    border-radius: 20px;
+  }
+  .title {
+    border-bottom: 1px solid black;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-bottom: 5%;
+  }
 
   #desktop-version {
     display: none;
@@ -192,42 +240,41 @@ float: right;
     font-size: 300%;
   }
   header {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     word-wrap: inherit;
     font-size: 1.5em;
   }
   nav ul li{
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     color: #ccc;
     font-size: 1em;
   }
   nav ul li a{
-    margin-left: 2em;
+    margin-left: 1em;
     color: #fdf6c5;
     text-decoration: none;
   }
   button {
     color: #fdf6c5;
     background-color: #3a3a3a;
-    font-size: 3em;
+    font-size: 2.7em;
     border-radius: 30px;
     padding: 0.3em 4em;
   }
-  .right p {
+ p {
     font-size: 1.3em;
     margin-left: 0.8em;
     color: #fdf6c5;
   }
-  .right img{
-    margin-right: 1em;
-    margin-left: 1em;
-    border-radius: 20px;
+   .right img {
+    margin-right: 1.5em;
+    margin-left: 1.5em;
 
   }
   .column {
     float: left;
     border-radius: 25px;
-    background-color: brown;
+    background-color: #767676;
     margin-bottom: 5%;
 
   }
@@ -246,11 +293,29 @@ float: right;
   .wrapper {
     text-align: center;
   }
+  .profile{
+    width: 30%;
+    clear: left;
+    float: left;
+    margin-left: 3.5%;
+    border-radius: 25px;
+    margin-bottom: 10%;
+
+  }
+  .tekst{
+    font-size: 1em;
+    margin-right: 1.5em;
+  }
+  .omos {
+    float: left;
+  }
+
 #mobile-version{
   display: none;
 }
 #mobil {
   padding-left: 10%;
+  margin-top: 10px;
 }
 
 #rasmus {
@@ -258,5 +323,13 @@ float: right;
   height: auto;
   float: right;
   margin-bottom: 2%;
+  border-radius: 25px;
+}
+#mail {
+  margin-top:10px;
+}
+
+footer p{
+  font-size: 1.2em;
 }
 }
