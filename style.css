@@ -17,6 +17,9 @@ h1 {
   color: #fdf6c5;
 
 }
+h3 {
+  color: #fdf6c5;
+}
 p {
   color: #fdf6c5;
 }
@@ -40,10 +43,10 @@ main{
   margin-bottom: 20%;
   margin-top: 10%;
 }
-main img {
+
+img {
   width: 100%;
 }
-
 
 footer {
   background-color: black;
@@ -68,14 +71,20 @@ footer img {
 width: 50px;
 float: right;
 }
-.activeimg{
-  border: 3px #48a7e6 solid;
+button {
+  color: #fdf6c5;
+  background-color: black;
+  font-size: 2.7em;
+  border-radius: 30px;
+  padding: 0.3em 4em;
 }
+
 .border {
   border: white solid 3px;
   padding: 2%;
   border-radius: 20px;
   margin: 5% 0;
+  background-color: #838383;
 }
 .profile{
   width: 30%;
@@ -96,6 +105,24 @@ float: right;
 }
 .omos {
   float: left;
+  margin-top: 3%;
+}
+.img-event{
+  width: 70%;
+  margin: 0 15%;
+}
+.tekst-event {
+  width: 60%;
+  margin: 0 20%;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+.border-image {
+  border: 4px solid white;
+  border-radius: 20px;
+}
+.wrapper {
+  text-align: center;
 }
 
 #instagram{
@@ -121,18 +148,23 @@ float: right;
   padding-bottom: 5%;
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 790px){ /*Mobil*/
   h1 {
     display: inline-block;
     border: 2px solid #838383;
     background-color: #838383;
-    border-radius: 20px;
+    border-radius: 5px;
   }
   .title {
     border-bottom: 1px solid black;
     margin-left: 3.5%;
     margin-right: 3.5%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
+  }
+  button {
+    margin-top: 10px;
+    margin-bottom: 2%;
+    font-size: 1.5em;
   }
 
   #desktop-version {
@@ -247,19 +279,12 @@ float: right;
   nav ul li{
     margin-bottom: 10%;
     color: #ccc;
-    font-size: 1em;
+    font-size: 1.3em;
   }
   nav ul li a{
     margin-left: 1em;
     color: #fdf6c5;
     text-decoration: none;
-  }
-  button {
-    color: #fdf6c5;
-    background-color: #3a3a3a;
-    font-size: 2.7em;
-    border-radius: 30px;
-    padding: 0.3em 4em;
   }
  p {
     font-size: 1.3em;
@@ -290,9 +315,7 @@ float: right;
     margin-right: 3%;
     margin-left: 3%;
   }
-  .wrapper {
-    text-align: center;
-  }
+
   .profile{
     width: 30%;
     clear: left;
@@ -302,13 +325,7 @@ float: right;
     margin-bottom: 10%;
 
   }
-  .tekst{
-    font-size: 1em;
-    margin-right: 1.5em;
-  }
-  .omos {
-    float: left;
-  }
+
 
 #mobile-version{
   display: none;
