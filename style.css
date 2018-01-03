@@ -5,7 +5,6 @@ body {
   background-color: #ccc;
   margin: 0;
   padding: 0;
-  margin-bottom: 80px;
 
 }
 h1 {
@@ -26,7 +25,7 @@ p {
 header {
   /* padding-left: 10%; */
   padding-top: 3%;
-  background-color: #838383;
+  background-color: #767676;
   padding-left: 22%;
   padding-right: 22%;
   margin: 0 3%;
@@ -80,8 +79,9 @@ button {
   border: white solid 3px;
   padding: 2%;
   border-radius: 20px;
-  margin: 5% 0;
+  margin: 5% 3%;
   background-color: #838383;
+  overflow: auto;
 }
 
 .profile{
@@ -112,8 +112,12 @@ button {
 .tekst-event {
   width: 60%;
   margin: 0 20%;
-  padding-top: 15px;
-  padding-bottom: 40px;
+  margin-top: 1%;
+  margin-bottom: 7%;
+  background-color: #838383;
+  border: white 3px solid;
+  padding: 3%;
+  border-radius: 20px;
 }
 .border-image {
   border: 4px solid white;
@@ -121,6 +125,14 @@ button {
 }
 .wrapper {
   text-align: center;
+}
+.tekst-omos{
+  background-color: #838383;
+  border: white 3px solid;
+  padding: 3%;
+  border-radius: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #instagram{
@@ -143,7 +155,9 @@ button {
   display: none;
 }
 #bottompage {
-  padding-bottom: 5%;
+  padding-bottom: 9%;
+  margin-bottom: 8%;
+  clear: both;
 }
 #top-del {
   margin-top: 5%;
@@ -155,6 +169,9 @@ button {
     border: 2px solid #838383;
     background-color: #838383;
     border-radius: 5px;
+  }
+  header {
+    border: 3px white solid;
   }
   .title {
      border-bottom: 1px solid black;
@@ -274,8 +291,8 @@ button {
   }
   header {
     margin-bottom: 15%;
-    word-wrap: inherit;
-    font-size: 1.5em;
+    padding-left: 0;
+    padding-right: 0;
   }
   nav ul li{
     margin-bottom: 10%;
@@ -323,7 +340,7 @@ button {
     float: left;
     margin-left: 3.5%;
     border-radius: 25px;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 
   }
   .desktop-event-tekst {
