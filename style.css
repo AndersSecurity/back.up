@@ -77,6 +77,7 @@ button {
   font-size: 2.7em;
   border-radius: 30px;
   padding: 0.3em 4em;
+  cursor: pointer;
 }
 form{
   width: 100%;
@@ -201,6 +202,20 @@ video{
 .navn {
   font-size: 1.5em;
 }
+.nyhedsbrev input{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  border: #222222 3px solid;
+  padding: 8px 12px;
+  font-size: 1.5em;
+}
+.overskrift {
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 5%;
+}
 
 #instagram{
   margin-left: 15px;
@@ -249,6 +264,7 @@ video{
     font-size: 1.5em;
     padding-left: 3em;
     padding-right: 3em;
+    cursor: pointer;
   }
   li{
     margin-bottom: 15%;
@@ -273,6 +289,10 @@ video{
     overflow: auto;}
     .right {
       margin-bottom: 10%;
+    }
+    .overskrift{
+      margin-top: 3%;
+      margin-bottom: 0;
     }
 
 
@@ -408,6 +428,7 @@ video{
   a {
     text-decoration: none;
   }
+
    .right img {
     margin-right: 3%;
     margin-left: 3%;
@@ -488,8 +509,16 @@ video{
 .navn {
   font-size: 1.5em;
 }
+.nyhedsbrev {
+  margin: 0;
+  margin-bottom: 5%;
+}
+.nyhedsbrev input{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
 
-
+}
 
 #mobile-version{
   display: none;
@@ -533,6 +562,7 @@ footer p{
 footer p {
   position: static;
   font-size: 1em;
+  width: 97%;
 }
 footer img {
   position: static;
@@ -548,6 +578,9 @@ footer img {
 }
 .omos {
   float: none;
+}
+.nyhedsbrev input {
+  font-size: 1em;
 }
 
 }
